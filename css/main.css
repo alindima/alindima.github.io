@@ -3,6 +3,14 @@ body, html{
     height:100%;
 }
 
+body{
+    background: url('../img/bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .first{
     height:100%;
 }
@@ -14,12 +22,31 @@ body, html{
 .row1{
     font-family:'Lato', sans-serif;
     text-align:center;
-    background: url('../img/bg.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    
     height:100%;
+}
+
+.row2{
+    border-top: 5px solid grey;
+    background:white;
+    font-family:'Lato', sans-serif;
+}
+
+.row2 .aboutMe{
+    padding:50px 50px 50px 20px;
+}
+
+.row2 img{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    border:1px solid grey;
+}
+
+.row2 .profile{
+    text-align: center;
+    padding-top: 50px;
+    padding-left:30px;
 }
 
 .header{
@@ -39,10 +66,22 @@ body, html{
     font-weight: 300;
 }
 
-.button button{
+.button a{
     margin-top:150px;
+    display:inline-block;
+    padding:20px;
+    background:transparent;
+    border:2px solid white;
+    color:white;
+    font-size:1.3em;
+    transition: .5s all;
 }
 
+.button a:hover{
+    text-decoration: none;
+    background: rgba(255,255,255,1);
+    color:grey;
+}
 
 @media (max-width: 1000px) {
     .header h1{
