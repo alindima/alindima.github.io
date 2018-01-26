@@ -40,10 +40,12 @@ body{
 }
 
 .text{
-    /*border:5px solid #ccc;*/
+    border-radius:5px;
     padding:50px;
-    color:black;
-    background:rgba(255,255,255,0.6);
+    color:white;
+    /*font-size:1.8em;*/
+    font-size: 2vw;
+    background: rgba(79, 125, 159, 0.7);
 }
 
 .row2 img{
@@ -59,10 +61,21 @@ body{
     box-sizing: border-box;
     float:left;
     margin:auto;
-    /*position:relative;*/
-    /*text-align: center;*/
-    /*padding-left:30px;
-*/}
+}
+
+.footer{
+    color:white;
+    font-size: 3vw;
+    border-top: 3px solid white;
+    padding:70px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+}
+
+.mailto{
+    display: block;
+}
 
 .header{
     position: relative !important;
