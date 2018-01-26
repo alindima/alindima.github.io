@@ -48,6 +48,10 @@ body{
     background: rgba(79, 125, 159, 0.7);
 }
 
+.text a{
+    color:black;
+}
+
 .row2 img{
     border-radius:50%;
     max-width:100%;
